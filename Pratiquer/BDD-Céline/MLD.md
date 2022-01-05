@@ -1,4 +1,4 @@
-LIVRE ( ISBN, titre, catégorie, #nom_auteur, année )
-AUTEUR ( nom, prénom, date_naissance, date_décès )
-EMPRUNTE ( ISBN, nom_usager, date_emprunt, date_retour_prévu )
-USAGER ( nom, prénom, mail, téléphone )
+LIVRE ( ISBN, titre, catégorie, #code_auteur, année )
+AUTEUR ( code_auteur, nom, prénom, date_naissance, date_décès )
+EMPRUNTE ( ISBN, code_usager, date_emprunt, date_retour_prévu )
+USAGER ( code_usager, nom, prénom, mail, téléphone )
